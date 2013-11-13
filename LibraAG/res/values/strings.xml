@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="users_roles">
+        <item>User</item>
+        <item>Admin</item>
+    </string-array>
+    <string-array name="orders_status">
+        <item>NOT READY</item>
+        <item>READY</item>
+    </string-array>
+
+    <string name="app_name">Libra AG</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_exit">Exit</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_hint">Username</string>
+    <string name="pass_hint">Password</string>
+    <string name="sign_in_hint">Sign In</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="new_order">New Order</string>
+    <string name="previous_orders">Previous Orders</string>
+    <string name="title_activity_products_list">ProductsListActivity</string>
+    <string name="button_proceed">Proceed</string>
+    <string name="button_add">Add</string>
+    <string name="group_filter">\tBy Group\t</string>
+    <string name="manufacturer_filter">\tBy Manufacturer\t</string>
+    <string name="filters_label">Filters:</string>
+    <string name="button_add_note">Add Note</string>
+    <string name="title_activity_orders_list">OrdersListActivity</string>
+    <string name="previous_orders_label">Your Previous Orders:</string>
+    <string name="close_order_dialog">OK</string>
+    <string name="admin_users">Users</string>
+    <string name="admin_products">Products</string>
+    <string name="admin_groups">Groups</string>
+    <string name="admin_manufacturers">Manufacturers</string>
+    <string name="title_activity_admin_users">AdminUsersActivity</string>
+    <string name="admin_add">New</string>
+    <string name="role_hint">Role</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="address_hint">Address</string>
+    <string name="phone_hint">Phone</string>
+    <string name="title_activity_admin_groups">AdminGroupsActivity</string>
+    <string name="button_delete">Delete</string>
+    <string name="button_show_info">Show Orders</string>
+    <string name="new_user_role">Select Role</string>
+    <string name="change_order_status">Change Status</string>
+    <string name="button_save">OK / Save</string>
+    <string name="group_name_hint">Group Name</string>
+    <string name="title_activity_admin_manufacturers">AdminManufacturersActivity</string>
+    <string name="title_activity_admin_products">AdminProductsActivity</string>
+    <string name="manufacturer_name_hint">Manufacturer Name</string>
+    <string name="title_activity_file_picker">FilePickerActivity</string>
+    <string name="title_activity_product_options">ProductOptionsActivity</string>
+    <string name="empty_folder">Nothing to be shown here..</string>
+    <string name="no_file_chosen">No file chosen</string>
+    <string name="button_change_picture">Change Picture</string>
+    <string name="title_activity_product_new">ProductNewActivity</string>
+    <string name="picture">Picture</string>
+    <string name="button_add_picture">Add picture</string>
+    <string name="product_name_hint">Product name</string>
+    <string name="description_hint">Description</string>
+    <string name="barcode_hint">Barcode</string>
+    <string name="quantity_hint">Quantity</string>
+
+</resources>

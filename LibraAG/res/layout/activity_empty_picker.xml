@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        android:contentDescription="background"
+        tools:ignore="HardcodedText" >
+
+    </ImageView>    
+    
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="20dip"
+	    android:orientation="vertical" >
+		<TextView
+		  	android:layout_width="fill_parent"
+		  	android:layout_height="fill_parent"
+		  	android:text="@string/empty_folder"
+			android:textSize="28sp"
+			android:textColor="#ffffff"
+	    	android:gravity="center_vertical|center_horizontal"	/>
+	</LinearLayout>
+	
+</RelativeLayout>
