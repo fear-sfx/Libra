@@ -188,10 +188,10 @@ public class ProductNewActivity extends Activity {
 									notifyError(message);
 								}
 							});
+					finish();
 				} else {
-					
+					Toast.makeText(context, "Please fill all fields.", Toast.LENGTH_LONG).show();
 				}
-				finish();
 			}
 		});
 

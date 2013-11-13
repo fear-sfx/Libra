@@ -12,7 +12,6 @@ import android.os.StrictMode;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.fearsfx.libra.models.Order;
@@ -37,15 +36,6 @@ public class UserActivity extends Activity {
 		setContentView(R.layout.activity_user);
 
 		init();
-
-		TextView tv = (TextView) findViewById(R.id.user_info);
-
-		tv.setText(" ID: " + user.getId() + "\n User: " + user.getUsername()
-				+ "\n Role: " + user.getRole() + "\n First Name: "
-				+ user.getFirstName() + "\n Last Name: " + user.getLastName()
-				+ "\n Address: " + user.getAddress() + "\n Phone: "
-				+ user.getPhone());
-
 	}
 
 	@Override
